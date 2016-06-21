@@ -103,7 +103,9 @@ public class Awsbasicapp{
 	//Descriing availabilty zones
 		
 		
-//Acccount attributes		
+//Acccount attributes	
+		
+		
 		InstanceStatus status=new InstanceStatus();
 		AccountAttribute accountAttribute=new AccountAttribute();
 		DescribeAccountAttributesRequest describeAccountAttributesRequest=new DescribeAccountAttributesRequest();

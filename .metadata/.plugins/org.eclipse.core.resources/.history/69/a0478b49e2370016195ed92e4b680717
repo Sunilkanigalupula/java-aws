@@ -1,0 +1,39 @@
+package com.techsu.app;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JFileChooser;
+
+import com.amazonaws.services.s3.model.ProgressEvent;
+import com.amazonaws.services.s3.model.ProgressListener;
+
+public class ButtonListener implements ActionListener {
+
+	@Override
+	public void actionPerformed(ActionEvent arg0) {
+		JFileChooser fileChooser=new JFileChooser();
+		int showOpenDialog=fileChooser.showOpenDialog(fileChooser);
+		
+		if(showOpenDialog !=JFileChooser.APPROVE_OPTION)
+				return;
+			
+		createAmazonS3Bucket();
+		
+		ProgressListener progressListener=new ProgressListener() {
+			
+			@Override
+			public void progressChanged(ProgressEvent progressEvent) {
+				if()
+				
+			}
+		};
+
+	}
+
+	private void createAmazonS3Bucket() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

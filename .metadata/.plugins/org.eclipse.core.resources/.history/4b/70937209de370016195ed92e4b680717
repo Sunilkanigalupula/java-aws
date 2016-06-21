@@ -1,0 +1,40 @@
+/**
+ * 
+ */
+package com.techsu.app;
+
+import javax.swing.JFrame;
+import javax.swing.JProgressBar;
+
+import com.amazonaws.auth.AWSCredentials;
+import com.amazonaws.services.s3.transfer.TransferManager;
+import com.amazonaws.services.s3.transfer.Upload;
+
+/**
+ * @author techsu
+ *
+ */
+public class S3ServersideEncryption {
+
+	
+	/**
+	 * @param args
+	 */
+
+	private static AWSCredentials credentials;
+	private static TransferManager transfermanager;
+	private String bucketName;
+	
+	private JProgressBar progressBar;
+	private JFrame frame;
+	private Upload upload;
+	private Button button;
+	
+	public static void main(String[] args) {
+		
+		 
+		
+				
+	}
+
+}

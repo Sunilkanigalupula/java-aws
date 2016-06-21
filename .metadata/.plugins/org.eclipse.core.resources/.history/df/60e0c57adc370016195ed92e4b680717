@@ -1,0 +1,29 @@
+/**
+ * 
+ */
+package com.techsu.app;
+
+import com.amazonaws.auth.AWSCredentials;
+import com.amazonaws.services.s3.transfer.TransferManager;
+
+/**
+ * @author techsu
+ *
+ */
+public class S3ServersideEncryption {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		AWSCredentials credentials;
+		TransferManager transfermanager;
+		
+		
+		
+		
+
+	}
+
+}

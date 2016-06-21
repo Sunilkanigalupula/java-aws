@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package com.techsu.app;
+
+/**
+ * @author techsu
+ *
+ */
+public class S3ServersideEncryption {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
